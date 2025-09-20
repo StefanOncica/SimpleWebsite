@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ maxWidth: "700px", margin: "40px auto", fontFamily: "sans-serif" }}>
+      <h1>My First Article</h1>
+      <p>
+        This is my article. You can write as much as you want here.
+        It’s just a React app displaying text.
+      </p>
     </div>
   );
 }
