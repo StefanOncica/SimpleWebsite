@@ -6,6 +6,12 @@ function App() {
         This is my article. You can write as much as you want here.
         It’s just a React app displaying text.
       </p>
+      <p>
+        You can add more paragraphs, images, and other content as needed.
+      </p>
+      <p>
+        React makes it easy to build interactive UIs. Enjoy writing your articles!
+      </p>
     </div>
   );
 }
